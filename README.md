@@ -45,10 +45,10 @@ This repository contains three data analysis projects showcasing the use of **Ex
 ## Screenshots
 
 ### Power BI Dashboard
-![Power BI Dashboard Screenshot](images/powerbi_dashboard.png)
+![Power BI Dashboard Screenshot](Main/images/powerbi_dashboard.png)
 
 ### Excel Pivot Table
-![Excel Visual Screenshot](images/excel_visual.png)
+![Excel Visual Screenshot](Main/images/excel_visual.png)
 
 ---
 
