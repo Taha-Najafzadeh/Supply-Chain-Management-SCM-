@@ -1,6 +1,6 @@
 # Data Analysis Projects
 
-This repository contains three data analysis projects showcasing the use of **Excel**, **SQL**, and **Power BI** for practical business problems.
+This repository contains three data analysis projects showcasing the use of **Excel**, **SQL**, and **Power BI** for practical business problems. Each project involves data cleaning, analysis, and visualization.
 
 ---
 
@@ -12,8 +12,15 @@ This repository contains three data analysis projects showcasing the use of **Ex
   - Conditional formatting to highlight low-stock items.
   - Pivot tables for summarizing stock by category.
   - Visualizations for inventory insights.
-- **Files**:
-  - `inventory_management.xlsx`: The Excel file with formulas, pivot tables, and visuals.
+
+#### Data Cleaning Steps:
+- Removed duplicate rows to ensure each inventory item appears only once.
+- Corrected inconsistent category names (e.g., "Electronics" vs. "electronics").
+- Standardized date formats for better sorting and filtering.
+- Filled missing values in the `Lead Time` column with the category average.
+
+#### Files:
+- `inventory_management.xlsx`: The Excel file with formulas, pivot tables, and visuals.
 
 ---
 
@@ -23,9 +30,17 @@ This repository contains three data analysis projects showcasing the use of **Ex
   - Total sales by category.
   - Top-performing products.
   - Monthly sales trends.
-- **Files**:
-  - `sales_analysis.sql`: SQL script containing the queries.
-  - `sales_data.csv`: Sample sales data.
+
+#### Data Cleaning Steps:
+- Removed invalid records where `QuantitySold` or `UnitPrice` was null or zero.
+- Used SQL functions to:
+  - Normalize product names (e.g., removing extra spaces).
+  - Parse and standardize `SaleDate` into `YYYY-MM-DD` format.
+- Identified and corrected mismatched category entries using a lookup table.
+
+#### Files:
+- `sales_analysis.sql`: SQL script containing the queries.
+- `sales_data.csv`: Cleaned sales data.
 
 ---
 
@@ -35,12 +50,23 @@ This repository contains three data analysis projects showcasing the use of **Ex
   - Interactive slicers for filtering by category and supplier.
   - Visualizations: Bar charts, line charts, and cards for KPIs.
   - Cross-filtering and drill-down functionality.
-- **Files**:
-  - `sales_dashboard.pbix`: Power BI project file.
-  - `sales_data.csv`: Sales dataset.
-  - `product_details.csv`: Product details dataset.
+
+#### Data Cleaning Steps:
+- **Sales Data**:
+  - Removed sales records with invalid or future dates.
+  - Checked for outliers in `QuantitySold` and `UnitPrice` using descriptive statistics.
+  - Standardized product names to match the `Product_Details` dataset.
+- **Product Details Data**:
+  - Filled missing `ReorderLevel` values with the median of the respective supplier's products.
+  - Merged duplicate entries for the same product under different suppliers.
+
+#### Files:
+- `sales_dashboard.pbix`: Power BI project file.
+- `sales_data.csv`: Cleaned sales dataset.
+- `product_details.csv`: Cleaned product details dataset.
 
 ---
+
 
 ## Screenshots
 
@@ -49,6 +75,20 @@ This repository contains three data analysis projects showcasing the use of **Ex
 
 ### Excel Pivot Table
 ![Excel Visual Screenshot](Main/images/excel_visual.png)
+
+### SQL Project
+
+- **Total Sales by Category Query and Result**
+
+  ![Total Sales by Category](Main/images/sql_total_sales_by_category.png)
+
+- **Top 3 Best-Selling Products Query and Result**
+
+  ![Top 3 Best-Selling Products](Main/images/sql_top_products.png)
+
+- **Monthly Sales Trend Query and Result**
+
+  ![Monthly Sales Trend](Main/images/sql_monthly_sales_trend.png)
 
 ---
 
