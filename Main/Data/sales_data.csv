@@ -1,0 +1,21 @@
+SaleID,ProductName,Category,SaleDate,QuantitySold,UnitPrice
+1,Laptop,Electronics,2024-12-01,5,800
+2,Smartphone,Electronics,2024-12-02,10,600
+3,Jeans,Clothing,2024-12-03,20,40
+4,Jacket,Clothing,2024-12-04,15,80
+5,Printer,Office Supplies,2024-12-05,2,200
+6,Notebook,Office Supplies,2024-12-06,50,5
+7,Toaster,Home Appliances,2024-12-07,3,50
+8,Vacuum Cleaner,Home Appliances,2024-12-08,1,150
+9,Monitor,Electronics,2024-12-09,8,300
+10,Headphones,Electronics,2024-12-10,25,100
+11,T-Shirt,Clothing,2024-12-11,30,20
+12,Sneakers,Clothing,2024-12-12,12,60
+13,Desk Chair,Office Supplies,2024-12-13,5,120
+14,Blender,Home Appliances,2024-12-14,4,70
+15,Microwave,Home Appliances,2024-12-15,2,120
+16,Tablet,Electronics,2024-12-16,6,400
+17,Keyboard,Electronics,2024-12-17,15,50
+18,Coat,Clothing,2024-12-18,10,100
+19,Stapler,Office Supplies,2024-12-19,20,15
+20,Iron,Home Appliances,2024-12-20,3,80

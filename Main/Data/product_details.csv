@@ -1,0 +1,26 @@
+ProductID,ProductName,Supplier,StockLevel,ReorderLevel
+101,Laptop,TechSupply,50,10
+102,Smartphone,MobileWorld,60,20
+103,Jeans,FashionHub,100,25
+104,Jacket,FashionHub,80,15
+105,Printer,OfficeMax,20,5
+106,Notebook,OfficeMax,200,50
+107,Toaster,HomeAppliancesCo,15,5
+108,Vacuum Cleaner,HomeAppliancesCo,10,5
+109,Monitor,TechSupply,40,10
+110,Headphones,TechSupply,75,15
+111,T-Shirt,FashionHub,150,30
+112,Sneakers,FashionHub,60,10
+113,Desk Chair,OfficeMax,25,10
+114,Blender,HomeAppliancesCo,12,5
+115,Microwave,HomeAppliancesCo,8,4
+116,Tablet,TechSupply,35,10
+117,Keyboard,TechSupply,100,25
+118,Coat,FashionHub,50,10
+119,Stapler,OfficeMax,30,10
+120,Iron,HomeAppliancesCo,10,5
+121,Water Heater,HomeAppliancesCo,5,2
+122,Gaming Console,TechSupply,15,5
+123,Socks,FashionHub,200,50
+124,Pens,OfficeMax,500,100
+125,Lamp,HomeAppliancesCo,25,10
